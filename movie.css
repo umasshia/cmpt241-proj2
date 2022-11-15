@@ -1,0 +1,113 @@
+body {
+	background-image: url('https://turing.manhattan.edu/~gsamushia01/images/background.png');
+	font-family: Vernanda, Tahoma, sans-serif;
+    font-size: 8pt;
+	margin: 0px;
+}
+h1, dt, div.top, q{
+    font-weight: bold;
+}
+
+div.banner, h1{
+    text-align: center;
+}
+div.banner {
+	background-image: url('https://turing.manhattan.edu/~gsamushia01/images/bannerbg.png');
+	background-size: 50px 50px;
+}
+h1{
+    font-size: 24pt;
+    text-shadow: 3px 3px #999999;
+}
+div.content{
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+	overflow:hidden;
+	height: 1065px;
+}
+div.columnleft{
+	margin: 11px;
+	width: 255px;
+	float: left;
+}
+div.columnright{
+	margin: 11px;
+	width: 255px;
+	float: right;
+	bottom: 800px;
+	position: relative;
+}
+p.review{
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+    border-radius: 10px;
+	padding: 8px;
+	padding-bottom:15px;
+	padding-bottom:15px;
+	clear: left;
+}
+p.reviewer{
+	margin-left: 5px;
+    margin-bottom: 20pt;
+}
+div.info{
+	width: 250px;
+	background-color: #A2B964;
+}
+dl{
+	font-family: Arial, sans-serif;
+    font-size: 8pt;
+	background-color: #A2B964;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+dt{
+    margin-top: 10pt;
+	font-size:10pt;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+div.top{
+	background-image: url('https://turing.manhattan.edu/~gsamushia01/images/rbg.png');
+	vertical-align:bottom;
+    font-size: 48pt;
+    color: red;
+    width: 550px;
+}
+div.overview{
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+div.validators{
+	position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+p.pageindex{
+	clear: both;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+	background-color: #A2B964;
+	bottom: 717px;
+	position: relative;
+}
+img.reviewer{
+    margin-left: 5px;
+    float: left;
+	padding-right:5px;
+}
+img{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: center;
+}
